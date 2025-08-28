@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/head', {title: 'nelp'}) %>
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-1/269290570_4776126692471006_8721639742433043558_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_ohc=_vPwQ5rNX5sQ7kNvwGU37B_&_nc_oc=Adk_1yGBRcf1KUXmIm04sc_f7it5AkMn9Dci8VvR3j6INeVf3Aag7jd1ksaSTQwcjI1iChPk2goVHACM7h0Dxbiw&_nc_zt=24&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=hBD4C-iNDV0E6SeFtFEmsg&oh=00_AfUCFVcT9wPkkqZyhxloFSWZZEHwXPcV7M8zxd-fEOnf6Q&oe=68B51BDC" alt="Nelp" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="nelp">Ainel Bacus</h1>
+          <p class="title">Hard Stuck 3rd yr Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:inquiry@op.gov.ph" class="contact-link">inquiry@op.gov.ph</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="09190571553" class="contact-link">09190571553</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">Few months ago</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Davao, Davao Del-Sur, PH</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/neleyyy" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/n.lpme/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="/home" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/about" class="navbar-link active">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/projects" class="navbar-link">Projects</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/contact" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active">
+        <header>
+          <h2 class="h2 article-title">About</h2>
+        </header>
+        
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Ateneo de Davao University</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Currently attending as a student taking Bachelor of Science Major in Information Technology.
+              </p>
+            </li>
+          </ol>
+        </section>
+        
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">C++</h4>
+              <span>2023 — 2023</span>
+              <p class="timeline-text">
+                Learned C++ during Comprog 1.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JaBai</h4>
+              <span>2023 — 2024</span>
+              <p class="timeline-text">
+                Learned Java from Comprog 2 and Data Struct.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Baithon</h4>
+              <span>2023 — 2024</span>
+              <p class="timeline-text">
+                Learned python from Comperog.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Html</h4>
+              <span>2023 — 2024</span>
+              <p class="timeline-text">
+                Learned Html from Websys 1 and 2.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">BiSQL</h4>
+              <span>2024 — 2024</span>
+              <p class="timeline-text">
+                Learned SQL from Information Management.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">JaBai Script</h4>
+              <span>2024 — 2025</span>
+              <p class="timeline-text">
+                Learned Java Script from EDP.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Racism (racing skill) 😉</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Pa hawd hawd</h5>
+                <data value="70">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Trashtalk</h5>
+                <data value="90">100%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">KABA</h5>
+                <data value="50">0%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 0%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

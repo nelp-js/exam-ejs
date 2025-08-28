@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/head', {title: 'nelp'}) %>
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-1/269290570_4776126692471006_8721639742433043558_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_ohc=_vPwQ5rNX5sQ7kNvwGU37B_&_nc_oc=Adk_1yGBRcf1KUXmIm04sc_f7it5AkMn9Dci8VvR3j6INeVf3Aag7jd1ksaSTQwcjI1iChPk2goVHACM7h0Dxbiw&_nc_zt=24&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=hBD4C-iNDV0E6SeFtFEmsg&oh=00_AfUCFVcT9wPkkqZyhxloFSWZZEHwXPcV7M8zxd-fEOnf6Q&oe=68B51BDC" alt="Nelp" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="nelp">Ainel Bacus</h1>
+          <p class="title">Hard Stuck 3rd yr Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:inquiry@op.gov.ph" class="contact-link">inquiry@op.gov.ph</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="09190571553" class="contact-link">09190571553</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">Few months ago</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Davao, Davao Del-Sur, PH</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/neleyyy" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/n.lpme/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="/home" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/about" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/projects" class="navbar-link active">Projects</a>
+          </li>
+          <li class="navbar-item">
+            <a href="/contact" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="projects active">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+      
+        <section class="projects">
+
+            <ul class="filter-list">
+  
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Clones</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Websites</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Others</button>
+              </li>
+  
+            </ul>
+  
+            <div class="filter-select-box">
+  
+              <button class="filter-select" data-select>
+  
+                <div class="select-value" data-selecct-value>Select category</div>
+  
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+  
+              </button>
+  
+              <ul class="select-list">
+  
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Clones</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Websites</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Others</button>
+                </li>
+  
+              </ul>
+  
+            </div>
+      
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="clones">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.15752-9/467197373_8767823926643280_3282174218733848689_n.png?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_ohc=q9GIN0j1-QcQ7kNvwGenpv0&_nc_oc=Adl9YGXYaZ2KNra1I4Y-Je8KGDyPohSoaj1yRuhhGo0rhAqW7EJyCfP7fZl6InwkOuozdt3lU-s6COR0ZITVo90r&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&oh=03_Q7cD3AHjRkGgmWgB3G2f6ux_b7__EZXbqvHlPllxwc3TkPvzlQ&oe=68D70D72" alt="spotify" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Spotify</h3>
+
+                <p class="project-category">Clone</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="websites">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t1.15752-9/462561996_1107666181038575_6486959638613886998_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_ohc=XRL58oi9cfsQ7kNvwEhBCtn&_nc_oc=AdldlsGTfUXegxUPY6gvoIIobChJkOqViud_5ysQUvZtMxoPYU4bu_lnW_SpvsZur6_IXseupZr73KPrsDoQXoaz&_nc_zt=23&_nc_ht=scontent.fdvo2-1.fna&oh=03_Q7cD3AFYJg7VDDWZHTFJ2sDU7fIc382Yv8dISMGiZB6ikEX0VA&oe=68D72EEA" alt="ocean" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mama Mo Ocean</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="websites">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="images/Screenshot 2025-08-28 at 10.25.29 AM.png" alt="fire" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fire Force</h3>
+
+                <p class="project-category">Website</p>
+
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
