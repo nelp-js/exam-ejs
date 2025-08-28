@@ -1,3 +1,1 @@
-const header = "WHERE DUTY MEETS DEDICATION.";
-
-module.exports = { header };
+wala ako alam dito
